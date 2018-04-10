@@ -1,0 +1,12 @@
+{
+	"name": "res-bot",
+	"version": "0.0.1",
+	"description": "This is the Rockford Emergency Services bot.",
+	"main": "app.js",
+	"author": "Cole",
+	"license": "ISC",
+	"dependencies": {
+		"matcher": "^1.1.0",
+		"snekfetch": "^3.6.4"
+	}
+}
