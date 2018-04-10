@@ -6,7 +6,7 @@ module.exports.run = async (client, message, args) => {
 		return message.reply("you must provide a command name to reload.");
 		
 	delete require.cache[require.resolve(`./${args[0]}.js`)];
-  	message.reply(`has reloaded the ${args[0]} command`);
+  	message.reply(`has reloaded the ${args[0]} command.`);
 }
 
 module.exports.help = {
